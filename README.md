@@ -4,4 +4,4 @@ Learning system design
 i am done with 5 chapters 80 pages approx #
 Failed the interview
 
-I am back 
+I am fining chat gpt to be the most insane things ever.  
