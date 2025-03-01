@@ -1,0 +1,15 @@
+class Solution:
+    def maximumGap(self, nums: List[int]) -> int:
+        if len(nums) < 2:
+            return 0
+        else :
+            s_nums = sorted (nums)
+            diff = []
+            prev_item = 0
+            for index, item in enumerate(s_nums) :
+                if index == 0:
+                    prev_item = item   
+                else :
+                    diff.append(abs(prev_item - item))
+                    prev_item = item
+            return max(diff)
